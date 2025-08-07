@@ -1,0 +1,11 @@
+commit d29f9408b1a36654c6537175b8c93a538210439e (HEAD -> main)
+Author: etuth <etuth7020@gmail.com>
+Date:   Mon Aug 4 21:06:04 2025 +0900
+
+    Add hello_world.txt
+
+commit 665833f9a3628dbd4c0428bc90c38ef54b57972f
+Author: etuth <etuth7020@gmail.com>
+Date:   Mon Aug 4 21:03:52 2025 +0900
+
+    Add hello_world.txt
