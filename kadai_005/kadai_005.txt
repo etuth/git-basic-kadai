@@ -1,11 +1,28 @@
-commit d29f9408b1a36654c6537175b8c93a538210439e (HEAD -> main)
-Author: etuth <etuth7020@gmail.com>
-Date:   Mon Aug 4 21:06:04 2025 +0900
+PS C:\Users\zzap4\Downloads> mkdir git_challenge
 
-    Add hello_world.txt
 
-commit 665833f9a3628dbd4c0428bc90c38ef54b57972f
-Author: etuth <etuth7020@gmail.com>
-Date:   Mon Aug 4 21:03:52 2025 +0900
+    ディレクトリ: C:\Users\zzap4\Downloads
 
-    Add hello_world.txt
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/08/07     14:31                git_challenge
+
+
+PS C:\Users\zzap4\Downloads> cd git_challenge
+PS C:\Users\zzap4\Downloads\git_challenge> git init
+Initialized empty Git repository in C:/Users/zzap4/Downloads/git_challenge/.git/
+PS C:\Users\zzap4\Downloads\git_challenge> echo "Hello, world!" >> hello_world.txt
+PS C:\Users\zzap4\Downloads\git_challenge> git add hello_world.txt
+PS C:\Users\zzap4\Downloads\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 1924218] hello_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+PS C:\Users\zzap4\Downloads\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\zzap4\Downloads\git_challenge> git add hello_world.txt
+PS C:\Users\zzap4\Downloads\git_challenge> git commit -m "日本語訳を追記"
+[main 6d09a32] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\zzap4\Downloads\git_challenge> git log --oneline
+6d09a32 (HEAD -> main) 日本語訳を追記
+1924218 hello_world.txtを追加
